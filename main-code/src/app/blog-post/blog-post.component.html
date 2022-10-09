@@ -1,0 +1,12 @@
+<div class="blog-post-wrapper">
+    <div class="card">
+        <div class="title">{{blogData.title}}</div>
+        <div class="description">{{blogData.description}}</div>
+        <div class="data">{{blogData.mainText}}</div>
+        <div class="tags-wrapper">
+            <div class="tags" *ngFor="let tags of blogData?.tags">
+                {{tags}}
+            </div>
+        </div>
+    </div>
+</div>
